@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import Layout from '../components/oldlayout'
-import { useFetchUser } from '../lib/user'
+import Layout from '../components/Oldlayout';
+import { useFetchUser } from '../lib/user';
 
 function About() {
-  const { user, loading } = useFetchUser()
+  const { user, loading } = useFetchUser();
 
   return (
     <Layout user={user} loading={loading}>
@@ -15,7 +15,7 @@ function About() {
         page it takes more time because it uses SSR to fetch the user first;
       </p>
     </Layout>
-  )
+  );
 }
 
-export default About
+export default About;

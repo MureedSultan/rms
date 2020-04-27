@@ -1,6 +1,6 @@
 import { DatePicker } from 'antd';
 
-import Layout from '../components/oldlayout';
+import Layout from '../components/Oldlayout';
 import { useFetchUser } from '../lib/user';
 
 function Home() {
