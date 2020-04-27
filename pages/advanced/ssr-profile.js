@@ -6,7 +6,6 @@ function Profile({ user }) {
   return (
     <Layout user={user}>
       <h1>Profile</h1>
-
       <div>
         <h3>Profile (server rendered)</h3>
         <img src={user.picture} alt="user picture" />

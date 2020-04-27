@@ -1,11 +1,11 @@
 {
   "build": {
     "env": {
-      "AUTH0_DOMAIN": "YOUR_AUTH0_DOMAIN",
-      "AUTH0_CLIENT_ID": "YOUR_AUTH0_CLIENT_ID",
+      "AUTH0_DOMAIN": "ms13797.auth0.com",
+      "AUTH0_CLIENT_ID": "jmuQPalHz15LtK2RIaMo4wEG2MpDRjrt",
       "AUTH0_CLIENT_SECRET": "@auth0_client_secret",
-      "REDIRECT_URI": "https://my-website.now.sh/api/callback",
-      "POST_LOGOUT_REDIRECT_URI": "https://my-website.now.sh/",
+      "REDIRECT_URI": "https://rms.sltn.now.sh/api/callback",
+      "POST_LOGOUT_REDIRECT_URI": "https://rms.sltn.now.sh/",
       "SESSION_COOKIE_SECRET": "@session_cookie_secret"
     }
   }
