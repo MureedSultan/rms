@@ -75,7 +75,7 @@ function Header({ user, loading }) {
         }
       `}</style>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
